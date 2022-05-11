@@ -1,0 +1,17 @@
+{
+  "name": "com.cordova.heartbeat",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "com.cordova.heartbeat",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

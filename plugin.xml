@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.cordova.heartbeat" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>HeartbeatPlugin</name>
+  <js-module name="HeartbeatPlugin" src="www/HeartbeatPlugin.js">
+    <clobbers target="cordova.plugins.HeartbeatPlugin" /></js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml"><feature name="HeartbeatPlugin">
+      <param name="android-package" value="com.cordova.heartbeat.HeartbeatPlugin" /></feature></config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+    <source-file src="src/android/HeartbeatPlugin.java" target-dir="src/com/cordova/heartbeat/HeartbeatPlugin" /></platform>
+
+
+
+
+
+</plugin>
